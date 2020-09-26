@@ -31,3 +31,19 @@ for (let i=0; i<data.length; ++i) {
     // put new div inside items container
     itemsContainer.appendChild(newDiv)
   }
+
+  const = cart []
+
+  function addItem(name, price, qty) {
+    const item = {name: name, price: price, qty: 1}
+    cart.push(item)
+  }
+
+  function showItems() {
+    console.log(`You have ${cart.length} items in your cart.`)
+  }
+
+  addItem("Apple", 0.99, 3)
+  addItem("Orange", 1.29, 4)
+
+  showItems()
