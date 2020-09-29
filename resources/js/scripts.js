@@ -48,7 +48,7 @@ for (let i=0; i<data.length; ++i) {
     showItems()
   }))
 
-  const = cart []
+  const cart = []
 
   // ----------------------------------------------------------------
   // Handle change events on update input.
